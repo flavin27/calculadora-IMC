@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: Helvetica1;
+    src: url('Fonts/HelveticaLTStd-BoldObl.otf');
+}
+
+@font-face {
+    font-family: Helvetica2;
+    src: url("Fonts/HelveticaLTStd-Bold.otf");
+}
+
+@font-face {
+    font-family: Helvetica3;
+    src: url("Fonts/HelveticaLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: Helvetica4;
+    src: url("Fonts/HelveticaWorld-Italic.ttf");
+}
+
+body {
+    background-color: darkgray;
+}
+main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Helvetica1;
+}
+div#conteudo {
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+div#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+form {
+    display: block;
+}
+p {
+    padding: 5px;
+}
+label {
+    font-size: 24px;
+    font-family: Helvetica2;
+}
+input {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input#calcular {
+    width: 100%;
+    height: 40px;
+    font-family: Helvetica2;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+input#calcular:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+p#botao {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+div#resultado {
+    text-align: center;
+    font-size: 24px;
+    font-family: Helvetica2;
+}

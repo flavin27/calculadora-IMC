@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="box">
-        <header>
-            <h1>Calculadora IMC</h1>
-        </header>
-        <main>
-            <form action="calcular">
-                <p><label for="peso">Peso: </label></p>
-                <p><input type="number" name="peso" id="peso"></p>
-                <p><label for="Altura">Altura: </label></p>
-                <p><input type="number" name="altura" id="altura"></p>
-                <p><input type="button" value="calcular" id="calcular"></p>
-            </form>
-        </main>
-    </div>
+    <main>
+        <div id="conteudo">
+            <header>
+                <h1>Calculadora IMC</h1>
+            </header>
+            <div id="box">
+                <form action="calcular">
+                    <p><label for="peso">Peso: </label></p>
+                    <p><input type="number" name="peso" id="peso"></p>
+                    <p><label for="Altura">Altura: </label></p>
+                    <p><input type="number" name="altura" id="altura"></p>
+                    <p id = 'botao'><input type="button" value="calcular" id="calcular"></p>
+                </form>
+            </div>
+            <div id="resultado">
+                <p>Resultado: </p>
+            </div>
+        </div>
+    </main>
     <footer>
         <p>Projeto feito por <a href="https://github.com/flaviodev27">Flavio</a></p>
     </footer>
+    <script src="function.js"></script>
 </body>
 </html>
