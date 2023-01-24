@@ -45,6 +45,7 @@ div#conteudo {
     height: 39vw;
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
+    
 }
 div#box {
     display: flex;
